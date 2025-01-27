@@ -6,19 +6,19 @@ const PartnersBenefits = () => {
 
   const benefitsData = [
     {
-      icon: "/public/crecimiento.svg",
+      icon: "/crecimiento.svg",
       title: "Impulsa tu crecimiento económico",
       description:
         "Potencia tus ingresos y expande tu impacto al ingresar a nuevos mercados educativos.",
     },
     {
-      icon: "/public/red-contactos.svg",
+      icon: "/red-contactos.svg",
       title: "Amplía tu red profesional",
       description:
         "Conecta con líderes del sector educativo y empresarial, ofreciéndoles soluciones innovadoras.",
     },
     {
-      icon: "/public/internacional.svg",
+      icon: "/internacional.svg",
       title: "Respaldo global",
       description:
         "Asóciate con una empresa reconocida, que proporciona acceso a herramientas, recursos y soporte especializado.",
@@ -94,7 +94,7 @@ const PartnersBenefits = () => {
             transition={{ duration: 1, delay: 0.5 }}
           >
             <motion.img
-              src="/public/video-q10.svg"
+              src="/video-q10.svg"
               alt="Video - Beneficios de Partners Q10"
               className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow"
               initial={{ scale: 0.8 }}

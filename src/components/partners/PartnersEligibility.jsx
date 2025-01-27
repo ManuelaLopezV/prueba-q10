@@ -5,13 +5,13 @@ const PartnersEligibility = () => {
   // Categorías de Partner
   const partnerCategories = [
     {
-      icon: "/public/empresas-ti.svg",
+      icon: "/empresas-ti.svg",
       title: "Empresas de Tecnología",
       description:
         "TI, Desarrollo, Hardware, Software y Soluciones Tecnológicas.",
     },
     {
-      icon: "/public/consultores.svg",
+      icon: "/consultores.svg",
       title: "Consultores Independientes",
       description: "De Tecnología y/o Educación.",
     },
@@ -28,7 +28,7 @@ const PartnersEligibility = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="/public/partners-img-2.svg"
+            src="/partners-img-2.svg"
             alt="Partners Q10"
             className="w-full h-auto rounded-lg"
           />

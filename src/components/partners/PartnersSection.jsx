@@ -5,19 +5,19 @@ const PartnerSection = () => {
   const stepsData = [
     {
       step: 1,
-      icon: "/public/informate.svg",
+      icon: "/informate.svg",
       title: "Infórmate",
       description: "Contáctanos y descubre cómo elevar tus ingresos con Q10.",
     },
     {
       step: 2,
-      icon: "/public/capacitate.svg",
+      icon: "/capacitate.svg",
       title: "Capacítate",
       description: "Descubre Q10 y adquiere habilidades para impulsarlo.",
     },
     {
       step: 3,
-      icon: "/public/gana.svg",
+      icon: "/gana.svg",
       title: "Gana",
       description: "Gana ingresos conviertiéndote en un Partner certificado.",
     },

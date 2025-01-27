@@ -64,7 +64,7 @@ const PartnersProgram = () => {
           transition={{ duration: 1, delay: 0.2, ease: "easeInOut" }}
         >
           <motion.img
-            src="/public/partners-img-1.svg"
+            src="/partners-img-1.svg"
             alt="Programa Partners"
             className="w-auto sm:max-w-xs md:max-w-sm lg:max-w-none h-auto object-cover mx-auto"
             initial={{ y: 50, opacity: 0 }}

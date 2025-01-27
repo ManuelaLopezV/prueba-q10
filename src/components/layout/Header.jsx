@@ -37,11 +37,7 @@ const Header = () => {
         <div>
           <a href="/">
             <img
-              src={
-                isScrolled
-                  ? "/public/logo-partners.svg"
-                  : "/public/logo-partners.svg"
-              }
+              src={isScrolled ? "/logo-partners.svg" : "/logo-partners.svg"}
               alt="Logo Partners Q10"
               className={`h-12 w-auto transition-all ${
                 isScrolled ? "scale-90" : "scale-100"
