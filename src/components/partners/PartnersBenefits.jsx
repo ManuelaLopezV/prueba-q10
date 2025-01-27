@@ -7,21 +7,21 @@ const PartnersBenefits = () => {
   const benefitsData = [
     {
       icon: "/src/assets/icons/crecimiento.svg",
-      title: "Crecimiento económico",
+      title: "Impulsa tu crecimiento económico",
       description:
-        "Mejora tus ingresos y beneficios al aumentar tu alcance en nuevos mercados.",
+        "Potencia tus ingresos y expande tu impacto al ingresar a nuevos mercados educativos.",
     },
     {
       icon: "/src/assets/icons/red-contactos.svg",
-      title: "Red de contactos",
+      title: "Amplía Tu Red Profesional",
       description:
-        "Crece tu comunidad profesional ofreciéndole a tus clientes soluciones líderes en gestión educativa.",
+        "Conecta con líderes del sector educativo y empresarial, ofreciéndoles soluciones innovadoras.",
     },
     {
       icon: "/src/assets/icons/internacional.svg",
-      title: "Respaldo internacional",
+      title: "Respaldo global",
       description:
-        "Obtén el respaldo de una empresa de talla internacional que impulsa tu crecimiento con herramientas y recursos de primera.",
+        "Asóciate con una marca internacionalmente reconocida, que proporciona acceso a herramientas, recursos y soporte especializado.",
     },
   ];
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const PartnersProgram = () => {
   return (
     <main className="bg-gradient-to-b from-neutral-200 to-neutral-300 p-6 sm:p-8">
-      <section className="container mt-16 sm:mt-28 lg:mt-20 xl:mt-20 flex flex-col lg:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 lg:gap-20 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+      <section className="container mt-16 sm:mt-28 lg:mt-20 xl:mt-20 flex flex-col lg:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 lg:gap-16 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
         {/* Contenido del Slider */}
         <motion.article
           className="w-full space-y-8 sm:space-y-10 md:space-y-12 lg:w-2/5 xl:w-1/2 xl:pl-32"
@@ -18,7 +18,7 @@ const PartnersProgram = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            Programa Partners Q10
+            Potencia Tu Empresa con Q10
           </motion.h1>
           <div className="space-y-4 sm:space-y-6 md:space-y-8">
             <motion.p
@@ -27,7 +27,8 @@ const PartnersProgram = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
             >
-              Lidera el cambio en la educación y aumenta tus ingresos.
+              Únete al Programa Partners Q10 y lidera el cambio en el sector
+              educativo.
             </motion.p>
             <motion.p
               className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-700 text-center sm:text-left"
@@ -35,8 +36,8 @@ const PartnersProgram = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
             >
-              Obtén excelentes oportunidades de comisionar vendiendo el software
-              educativo líder en Latinoamérica.
+              Amplía tus horizontes y aumenta tus ingresos ofreciendo soluciones
+              tecnológicas avanzadas.
             </motion.p>
           </div>
           <div className="text-center sm:text-left">
