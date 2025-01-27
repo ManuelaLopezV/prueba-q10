@@ -23,3 +23,21 @@ Para comenzar a trabajar con el proyecto, sigue estos pasos:
    ```bash
    git clone https://github.com/tu_usuario/partners-q10.git
    ```
+
+2. **Instala las dependencias**
+
+   ```bash
+   npm install
+   ```
+
+3. **Inicia el servidor de desarrollo**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Abre el navegador en localhost:5174**
+
+   ```bash
+   http://localhost:5174
+   ```
