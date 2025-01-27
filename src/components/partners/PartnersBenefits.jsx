@@ -26,7 +26,7 @@ const PartnersBenefits = () => {
   ];
 
   return (
-    <section className="px-6 sm:px-10 py-16 mb-20 lg:mx-28 lg:py-16 lg:mb-20">
+    <section className="px-6 sm:px-10 py-16 mb-20 md:px-5 lg:mx-10 lg:py-16 lg:mb-20">
       <div className="container mx-auto px-4">
         <motion.h1
           className="text-2xl md:text-2xl lg:text-3xl font-bold text-center mb-20 text-neutral-800"
@@ -38,14 +38,14 @@ const PartnersBenefits = () => {
         </motion.h1>
 
         <motion.div
-          className="flex flex-col items-center sm:flex-row gap-10 sm:gap-16 md:flex-row lg:gap-5"
+          className="flex flex-col items-center sm:flex-col gap-10 sm:gap-16 md:flex-row md:gap-5 lg:gap-5 xl:justify-evenly"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
           {/* Beneficios de ser Partner Q10*/}
           <motion.div
-            className="w-full sm:w-3/5 lg:w-2/3 xl:w-2/3 space-y-6 lg:ml-20"
+            className="w-full sm:w-full md:w-3/4 lg:w-4/5 xl:w-3/5 xl:pl-10 xl:pr-10 space-y-6"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -70,12 +70,12 @@ const PartnersBenefits = () => {
                   </div>
                   <div className="flex flex-col my-1 justify-start px-7">
                     <div>
-                      <p className="text-neutral-800 font-bold text-xl text-justify">
+                      <p className="text-neutral-800 font-bold text-xl text-justify md:text-lg">
                         {benefit.title}
                       </p>
                     </div>
                     <div>
-                      <p className="text-neutral-800 text-justify">
+                      <p className="text-neutral-800 text-justify md:text-sm">
                         {benefit.description}
                       </p>
                     </div>
@@ -87,7 +87,7 @@ const PartnersBenefits = () => {
 
           {/* Imagen de Video */}
           <motion.div
-            className="flex flex-col justify-center cursor-pointer"
+            className="flex flex-col justify-center cursor-pointer xl:pr-20"
             onClick={() => setIsVideoModalOpen(true)}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

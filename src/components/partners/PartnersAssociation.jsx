@@ -132,7 +132,7 @@ const PartnersAssociation = () => {
                       (window.location.href =
                         "https://waf-www.q10.com/Colombia/Contacto")
                     }
-                    className="w-1/2 py-2 bg-neutral-700 text-white font-semibold lg:text-xl lg:px-6 lg:py-2 rounded-lg hover:bg-opacity-90 hover:bg-neutral-500 hover:text-white transition-colors shadow-lg hover:shadow-xl hover:cursor-pointer"
+                    className="w-1/2 py-2 bg-neutral-700 text-white font-semibold lg:text-lg lg:px-6 lg:py-2 rounded-lg hover:bg-opacity-90 hover:bg-neutral-500 hover:text-white transition-colors shadow-lg hover:shadow-xl hover:cursor-pointer"
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
                     transition={{ type: "spring", stiffness: 300 }}
