@@ -6,22 +6,22 @@ const PartnersBenefits = () => {
 
   const benefitsData = [
     {
-      icon: "/src/assets/icons/crecimiento.svg",
+      icon: "/public/crecimiento.svg",
       title: "Impulsa tu crecimiento económico",
       description:
         "Potencia tus ingresos y expande tu impacto al ingresar a nuevos mercados educativos.",
     },
     {
-      icon: "/src/assets/icons/red-contactos.svg",
-      title: "Amplía Tu Red Profesional",
+      icon: "/public/red-contactos.svg",
+      title: "Amplía tu red profesional",
       description:
         "Conecta con líderes del sector educativo y empresarial, ofreciéndoles soluciones innovadoras.",
     },
     {
-      icon: "/src/assets/icons/internacional.svg",
+      icon: "/public/internacional.svg",
       title: "Respaldo global",
       description:
-        "Asóciate con una marca internacionalmente reconocida, que proporciona acceso a herramientas, recursos y soporte especializado.",
+        "Asóciate con una empresa reconocida, que proporciona acceso a herramientas, recursos y soporte especializado.",
     },
   ];
 
@@ -34,7 +34,7 @@ const PartnersBenefits = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          ¿Por qué ser un Partner Q10?
+          Beneficios de ser Partner Q10
         </motion.h1>
 
         <motion.div
@@ -45,7 +45,7 @@ const PartnersBenefits = () => {
         >
           {/* Beneficios de ser Partner Q10*/}
           <motion.div
-            className="w-full sm:w-3/5 lg:w-2/3 xl:w-1/2 space-y-6 lg:ml-20"
+            className="w-full sm:w-3/5 lg:w-2/3 xl:w-2/3 space-y-6 lg:ml-20"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -59,7 +59,7 @@ const PartnersBenefits = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: index * 0.2 }}
                 >
-                  <div className="flex flex-col mx-5 justify-center">
+                  <div className="flex flex-col ml-3 justify-center">
                     <figure className="w-14 h-14">
                       <img
                         src={benefit.icon}
@@ -68,14 +68,16 @@ const PartnersBenefits = () => {
                       />
                     </figure>
                   </div>
-                  <div className="flex flex-col my-1 justify-start">
+                  <div className="flex flex-col my-1 justify-start px-7">
                     <div>
-                      <p className="text-neutral-800 font-bold text-xl">
+                      <p className="text-neutral-800 font-bold text-xl text-justify">
                         {benefit.title}
                       </p>
                     </div>
                     <div>
-                      <p className="text-neutral-800">{benefit.description}</p>
+                      <p className="text-neutral-800 text-justify">
+                        {benefit.description}
+                      </p>
                     </div>
                   </div>
                 </motion.div>
@@ -92,7 +94,7 @@ const PartnersBenefits = () => {
             transition={{ duration: 1, delay: 0.5 }}
           >
             <motion.img
-              src="/src/assets/images/video-q10.svg"
+              src="/public/video-q10.svg"
               alt="Video - Beneficios de Partners Q10"
               className="w-full rounded-lg shadow-md hover:shadow-xl transition-shadow"
               initial={{ scale: 0.8 }}

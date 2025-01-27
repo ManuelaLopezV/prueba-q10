@@ -88,14 +88,14 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center mb-4 md:mb-0">
             <img
-              src="/src/assets/images/logo-blanco.svg"
+              src="/public/logo-blanco.svg"
               alt="Logo Partners Q10"
-              className="h-16 w-auto"
+              className="h-16 w-auto ml-3"
             />
             <div className="ml-6 flex flex-col">
               <div className="flex items-center gap-3 mb-1">
                 <img
-                  src="/src/assets/icons/colombia.svg"
+                  src="/public/colombia.svg"
                   alt="Bandera de Colombia"
                   className="h-6 w-6"
                 />

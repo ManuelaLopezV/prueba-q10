@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         // Colores personalizados
-        "q10-orange": "#FF8500",
+        "q10-orange": "#F7941D",
       },
     },
   },
   plugins: [],
-}
+};

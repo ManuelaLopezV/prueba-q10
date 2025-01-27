@@ -5,13 +5,13 @@ const PartnersEligibility = () => {
   // Categorías de Partner
   const partnerCategories = [
     {
-      icon: "/src/assets/icons/empresas-ti.svg",
+      icon: "/public/empresas-ti.svg",
       title: "Empresas de Tecnología",
       description:
         "TI, Desarrollo, Hardware, Software y Soluciones Tecnológicas.",
     },
     {
-      icon: "/src/assets/icons/consultores.svg",
+      icon: "/public/consultores.svg",
       title: "Consultores Independientes",
       description: "De Tecnología y/o Educación.",
     },
@@ -28,7 +28,7 @@ const PartnersEligibility = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="/src/assets/images/partners-img-2.svg"
+            src="/public/partners-img-2.svg"
             alt="Partners Q10"
             className="w-full h-auto rounded-lg"
           />
@@ -54,7 +54,7 @@ const PartnersEligibility = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: index * 0.2 }}
               >
-                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center ml-2">
                   {/* Icono */}
                   <motion.figure
                     className="w-14 h-14 sm:w-20 sm:h-20 mx-auto sm:mx-0"

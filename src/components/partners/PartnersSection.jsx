@@ -5,22 +5,21 @@ const PartnerSection = () => {
   const stepsData = [
     {
       step: 1,
-      icon: "/src/assets/icons/informate.svg",
+      icon: "/public/informate.svg",
       title: "Infórmate",
-      description: "Ponte en contacto con nosotros e incrementa tus ingresos.",
+      description: "Contáctanos y descubre cómo elevar tus ingresos con Q10.",
     },
     {
       step: 2,
-      icon: "/src/assets/icons/capacitate.svg",
+      icon: "/public/capacitate.svg",
       title: "Capacítate",
-      description: "Conoce a Q10 y desarrolla habilidades para venderlo.",
+      description: "Descubre Q10 y adquiere habilidades para impulsarlo.",
     },
     {
       step: 3,
-      icon: "/src/assets/icons/gana.svg",
+      icon: "/public/gana.svg",
       title: "Gana",
-      description:
-        "Obtén tu insignia Partner y gana por ventas y/o renovaciones.",
+      description: "Gana ingresos conviertiéndote en un Partner certificado.",
     },
   ];
 
@@ -28,13 +27,16 @@ const PartnerSection = () => {
     <section className="mt-10 pt-10 bg-neutral-100 pb-32">
       <div className="container mx-auto px-6 sm:px-8 md:px-10 lg:px-12">
         <motion.h1
-          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-16 text-neutral-800"
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-7  text-neutral-800"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Sé uno de nuestros Partners Q10 en solo 3 pasos
+          Empieza tu camino con Q10:
         </motion.h1>
+        <h2 className="lg:text-xl xl:text-2xl text-center text-neutral-600 mb-16 font-semibold">
+          3 pasos para ser Partner
+        </h2>
 
         {/* Tarjetas de pasos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

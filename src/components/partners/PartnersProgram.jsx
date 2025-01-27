@@ -7,7 +7,7 @@ const PartnersProgram = () => {
       <section className="container mt-16 sm:mt-28 lg:mt-20 xl:mt-20 flex flex-col lg:flex-row items-center justify-center gap-10 sm:gap-12 md:gap-16 lg:gap-16 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
         {/* Contenido del Slider */}
         <motion.article
-          className="w-full space-y-8 sm:space-y-10 md:space-y-12 lg:w-2/5 xl:w-1/2 xl:pl-32"
+          className="w-full space-y-8 sm:space-y-10 md:space-y-12 lg:w-2/5 xl:w-1/2 2xl:pl-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -64,7 +64,7 @@ const PartnersProgram = () => {
           transition={{ duration: 1, delay: 0.2, ease: "easeInOut" }}
         >
           <motion.img
-            src="/src/assets/images/partners-img-1.svg"
+            src="/public/partners-img-1.svg"
             alt="Programa Partners"
             className="w-auto sm:max-w-xs md:max-w-sm lg:max-w-none h-auto object-cover mx-auto"
             initial={{ y: 50, opacity: 0 }}

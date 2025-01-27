@@ -6,25 +6,29 @@ const PartnersAssociation = () => {
   const partnershipModels = [
     {
       type: "Refiere",
-      description: "Gana comisiones refiriendo a Q10.",
-      subDescription: "¡Nosotros nos encargamos del resto!",
-      benefits: ["Obtén el 15% de comisión por cada venta efectiva."],
-      pricing: "Sin costo de suscripción",
-      ctaText: "¡Afíliate ahora!",
+      description: "Con cada referencia exitosa, ganas comisiones.",
+      subDescription: "¡Te proporcionamos el soporte necesario!",
+      benefits: [
+        "Obtén el 15% de comisión por cada venta efectiva.",
+        "Maximiza tus ingresos al referir Q10 a nuevas instituciones y empresas.",
+        "Capacitación especializada y apoyo continuo.",
+      ],
+      pricing: "0 USD / Sin costo",
+      ctaText: "¡Únete ahora!",
       ctaId: "btn_prueba_partners_refiere",
     },
     {
       type: "Revende",
       description:
-        "Aumenta tus ingresos y adquiere descuentos, beneficios e incentivos exclusivos.",
+        "Expande tus oportunidades de ingresos al acceder a descuentos, beneficios y recompensas exclusivas.",
       benefits: [
         "30% de descuento en la plataforma Q10 para ventas nuevas y renovaciones.",
-        "Descuentos adicionales por volumen de facturación.",
-        "Acompañamiento y capacitación personalizados.",
-        "Administración de la facturación del cliente final.",
+        "Asesoría dedicada y formación continua.",
+        "Beneficios por alcanzar metas de facturación.",
+        "Soporte integral y acompañamiento estratégico.",
       ],
       pricing: "99 USD / Año",
-      ctaText: "¡Afíliate ahora!",
+      ctaText: "¡Únete ahora!",
       ctaId: "btn_prueba_partners_revende",
     },
   ];
@@ -47,7 +51,7 @@ const PartnersAssociation = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            Elige el camino ideal para ti y tu negocio.
+            Descubre el modelo más adecuado para el éxito de tu empresa.
           </motion.h3>
         </div>
 
@@ -91,7 +95,7 @@ const PartnersAssociation = () => {
                   </motion.p>
                 )}
               </div>
-              <div className="bg-neutral-200 px-6 sm:px-8 py-6 border-2 border-neutral-300 rounded-lg">
+              <div className="flex flex-col text-justify justify-between bg-neutral-200 px-9 sm:px-8 py-8 border-2 border-neutral-300 rounded-lg">
                 <motion.ul
                   className="space-y-3 mb-6"
                   initial={{ opacity: 0 }}
@@ -114,14 +118,14 @@ const PartnersAssociation = () => {
                   ))}
                 </motion.ul>
                 <div className="flex justify-between items-center border-t-2 pt-4 mb-4 border-q10-orange">
-                  <motion.h3
+                  <motion.span
                     className="w-1/2 text-md sm:text-lg font-medium text-neutral-800"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 1.5 }}
                   >
                     {model.pricing}
-                  </motion.h3>
+                  </motion.span>
                   <motion.button
                     id={model.ctaId}
                     onClick={() =>

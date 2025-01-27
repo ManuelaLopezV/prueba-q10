@@ -39,8 +39,8 @@ const Header = () => {
             <img
               src={
                 isScrolled
-                  ? "/src/assets/images/logo-partners.svg"
-                  : "/src/assets/images/logo-partners.svg"
+                  ? "/public/logo-partners.svg"
+                  : "/public/logo-partners.svg"
               }
               alt="Logo Partners Q10"
               className={`h-12 w-auto transition-all ${
