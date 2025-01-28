@@ -117,9 +117,9 @@ const PartnersAssociation = () => {
                     </motion.li>
                   ))}
                 </motion.ul>
-                <div className="flex justify-between items-center border-t-2 pt-4 mb-4 border-q10-orange">
+                <div className="flex flex-col justify-between xl:flex-row items-center border-t-2 pt-4 mb-4 border-q10-orange">
                   <motion.span
-                    className="w-1/2 text-md sm:text-lg font-medium text-neutral-800"
+                    className="w-1/2 text-center text-md sm:text-lg sm:w-full font-medium text-neutral-800"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 1.5 }}
@@ -132,7 +132,7 @@ const PartnersAssociation = () => {
                       (window.location.href =
                         "https://waf-www.q10.com/Colombia/Contacto")
                     }
-                    className="w-1/2 py-2 bg-neutral-700 text-white font-semibold lg:text-lg lg:px-6 lg:py-2 rounded-lg hover:bg-opacity-90 hover:bg-neutral-500 hover:text-white transition-colors shadow-lg hover:shadow-xl hover:cursor-pointer"
+                    className="w-1/2 mt-5 py-2 bg-neutral-700 text-white font-semibold sm:w-full md:w-3/5 lg:text-lg lg:px-6 lg:py-2 rounded-lg hover:bg-opacity-90 hover:bg-neutral-500 hover:text-white transition-colors shadow-lg hover:shadow-xl hover:cursor-pointer"
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
                     transition={{ type: "spring", stiffness: 300 }}

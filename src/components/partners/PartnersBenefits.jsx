@@ -26,7 +26,7 @@ const PartnersBenefits = () => {
   ];
 
   return (
-    <section className="px-6 sm:px-10 py-16 mb-20 md:px-5 lg:mx-10 lg:py-16 lg:mb-20">
+    <section className="px-6 sm:px-10 py-6 mb-20 md:px-5 lg:mx-10 lg:py-16 lg:mb-20">
       <div className="container mx-auto px-4">
         <motion.h1
           className="text-2xl md:text-2xl lg:text-3xl font-bold text-center mb-20 text-neutral-800"

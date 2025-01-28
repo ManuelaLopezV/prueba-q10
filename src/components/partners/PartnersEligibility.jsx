@@ -21,7 +21,7 @@ const PartnersEligibility = () => {
     <section className="py-16 px-6 sm:px-10">
       <div className="flex flex-col items-center">
         <motion.h2
-          className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-neutral-800 text-center sm:text-left"
+          className="text-2xl sm:text-3xl md:mb-10 lg:text-4xl lg:mb-14 font-bold mb-6 text-neutral-800 text-center sm:text-left"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -29,10 +29,10 @@ const PartnersEligibility = () => {
           ¿Quién puede ser Partner Q10?
         </motion.h2>
       </div>
-      <div className="container mx-auto flex flex-col sm:flex-col justify-center items-center gap-12">
+      <div className="container mx-auto flex flex-col sm:flex-col md:w-4/5 lg:w-5/6 lg:flex-row lg:mx-20 justify-center items-center gap-12">
         {/* Imagen */}
         <motion.figure
-          className="w-full sm:w-1/2 md:w-1/2 mb-8 sm:mb-0"
+          className="w-3/4 sm:w-3/5 mb-8 sm:mb-0 lg:w-5/6 xl:pl-24 xl:w-5/6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -45,8 +45,8 @@ const PartnersEligibility = () => {
         </motion.figure>
 
         {/* Contenido */}
-        <article className="w-full sm:w-full">
-          <div className="flex flex-col gap-6">
+        <article className="w-5/6 sm:w-full">
+          <div className="flex flex-col gap-6 lg:w-full 2xl:w-5/6">
             {partnerCategories.map((category, index) => (
               <motion.section
                 key={index}
