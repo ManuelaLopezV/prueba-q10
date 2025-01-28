@@ -70,12 +70,12 @@ const PartnersBenefits = () => {
                   </div>
                   <div className="flex flex-col my-1 justify-start px-7">
                     <div>
-                      <p className="text-neutral-800 font-bold text-xl text-justify md:text-lg">
+                      <p className="text-neutral-800 font-bold text-xl md:text-lg">
                         {benefit.title}
                       </p>
                     </div>
                     <div>
-                      <p className="text-neutral-800 text-justify md:text-sm">
+                      <p className="text-neutral-800 md:text-sm">
                         {benefit.description}
                       </p>
                     </div>
